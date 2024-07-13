@@ -7,7 +7,7 @@ public class App {
         Console console = System.console();
 
         service.clearScreen();
-        System.out.println("Hello");
+        service.welcomeScreen();
         console.readPassword("Press Enter to continue....");
     }
 }

@@ -9,4 +9,8 @@ public class Service {
             e.printStackTrace();
         }
     }
+
+    public void welcomeScreen(){
+        System.out.println("+---------------------------------------------------------+");
+    };
 }
